@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.354,
+  "duration": 0.816,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sfx_killenemy",
+  "soundFile": "sfx_killenemy.mp3",
   "type": 0,
   "volume": 1.0,
 }

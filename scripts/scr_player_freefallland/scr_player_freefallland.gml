@@ -14,7 +14,14 @@ function scr_player_freefallland() //scr_player_freefallland
     start_running = 1
     alarm[4] = 14
     vsp = 0
+	
     hsp = 0
+    if key_jump2
+    {
+        vsp = -16
+        state = (92 << 0)
+        sprite_index = spr_player_groundpoundjump
+    }
     if (floor(image_index) == (image_number - 1))
     {
         facehurt = 1

@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 3.549,
+  "duration": 3.504,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sfx_mach4",
+  "soundFile": "sfx_mach4.mp3",
   "type": 0,
   "volume": 1.0,
 }

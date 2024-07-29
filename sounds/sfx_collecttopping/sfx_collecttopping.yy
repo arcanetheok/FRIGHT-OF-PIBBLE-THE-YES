@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.6159999,
+  "duration": 1.008,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sfx_collecttopping",
+  "soundFile": "sfx_collecttopping.mp3",
   "type": 0,
-  "volume": 0.55,
+  "volume": 1.0,
 }
