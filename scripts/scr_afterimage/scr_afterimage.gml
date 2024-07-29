@@ -107,7 +107,7 @@ function create_blue_afterimage(argument0, argument1, argument2, argument3, argu
         alarm[1] = -1
         alarm[2] = -1
         image_xscale = argument4
-        image_blend = make_color_rgb(44, 126, 228)
+        image_blend = make_color_rgb(210, 92, 0)
         alpha = 1.25
     }
 }

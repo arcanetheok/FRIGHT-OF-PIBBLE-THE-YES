@@ -18,7 +18,7 @@ function scr_player_freefallland() //scr_player_freefallland
     hsp = 0
     if key_jump2
     {
-        vsp = -16
+        vsp = -15.3
         state = (92 << 0)
         sprite_index = spr_player_groundpoundjump
     }

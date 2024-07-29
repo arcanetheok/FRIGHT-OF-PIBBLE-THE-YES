@@ -1024,3 +1024,26 @@ if (state != (95 << 0))
     image_blend = c_white
 prevstate = state
 prevsprite = sprite_index
+if (!scr_slope())
+    angle = lerp(obj_player.angle, 0, 0.3)
+	else if !place_meeting(x, (y + 1), obj_solid)
+{
+    with instance_place(x, (y + 1), obj_slope)
+    {
+        if abs(image_yscale) < abs(image_xscale)
+        {
+            if sign(image_xscale) == 1
+                other.angle = lerp(obj_player.angle, 15, 0.3)
+
+            else
+                other.angle = lerp(obj_player.angle, -15, 0.3)
+
+        }
+        else if sign(image_xscale) == 1
+            other.angle = lerp(obj_player.angle, 30, 0.3)
+
+        else
+            other.angle = lerp(obj_player.angle, -30, 0.3)
+
+    }
+}

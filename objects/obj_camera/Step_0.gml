@@ -204,6 +204,7 @@ if (instance_exists(player) && player.state != (64 << 0) && player.state != (89 
             cam_x += irandom_range((-shake_mag), shake_mag)
             cam_y += irandom_range((-shake_mag), shake_mag)
         }
+		//camera_set_view_pos(view_camera[0], lerp(camera_get_view_x(view_camera[0]), cam_x, 0.2), lerp(camera_get_view_y(view_camera[0]), cam_y, 0.2))
         camera_set_view_pos(view_camera[0], cam_x, (cam_y + irandom_range((-shake_mag), shake_mag)))
     }
     else
