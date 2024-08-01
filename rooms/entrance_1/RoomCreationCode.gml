@@ -1,5 +1,5 @@
 pal_swap_init_system(2)
-global.roommessage = "WELCOME TO PIZZA TOWER"
+global.roommessage = "TIME TO SLOP"
 if (!obj_secretmanager.init)
 {
     trace("secret init")

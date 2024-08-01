@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_johnentrance",
-  "bbox_bottom": 539,
-  "bbox_left": 62,
-  "bbox_right": 1250,
-  "bbox_top": 175,
+  "bbox_bottom": 768,
+  "bbox_left": 0,
+  "bbox_right": 1131,
+  "bbox_top": 387,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76a1189b-0b9d-4686-944d-5b3814cc9caa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c73796e-47c9-468f-9905-f67ae1f870c1",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 540,
+  "height": 769,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"92dcd08d-c269-422d-99e3-c87999353e63","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"888d6c14-5e04-448f-b9b7-8e1c3ce6f527","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"76a1189b-0b9d-4686-944d-5b3814cc9caa","path":"sprites/bg_johnentrance/bg_johnentrance.yy",},},},"Disabled":false,"id":"fae0077a-6afc-4a3d-8bf7-3f05db9d0446","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c73796e-47c9-468f-9905-f67ae1f870c1","path":"sprites/bg_johnentrance/bg_johnentrance.yy",},},},"Disabled":false,"id":"7ff8ec52-05ca-45ec-ac65-08dc3dfe8074","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1278,
+  "width": 1132,
 }

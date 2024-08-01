@@ -1657,6 +1657,7 @@
     {"id":{"name":"rm_editor","path":"rooms/rm_editor/rm_editor.yy",},},
     {"id":{"name":"custom_lvl_room","path":"rooms/custom_lvl_room/custom_lvl_room.yy",},},
     {"id":{"name":"street_1","path":"rooms/street_1/street_1.yy",},},
+    {"id":{"name":"tile_pooopie_dungeon_entrance","path":"tilesets/tile_pooopie_dungeon_entrance/tile_pooopie_dungeon_entrance.yy",},},
     {"id":{"name":"scr_player_dashtumble","path":"scripts/scr_player_dashtumble/scr_player_dashtumble.yy",},},
     {"id":{"name":"scr_player_knightpepbump","path":"scripts/scr_player_knightpepbump/scr_player_knightpepbump.yy",},},
     {"id":{"name":"scr_pummel","path":"scripts/scr_pummel/scr_pummel.yy",},},

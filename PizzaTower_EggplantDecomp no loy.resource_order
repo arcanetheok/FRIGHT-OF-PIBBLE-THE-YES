@@ -1623,6 +1623,7 @@
     {"name":"rm_editor","order":1619,"path":"rooms/rm_editor/rm_editor.yy",},
     {"name":"custom_lvl_room","order":1620,"path":"rooms/custom_lvl_room/custom_lvl_room.yy",},
     {"name":"street_1","order":1621,"path":"rooms/street_1/street_1.yy",},
+    {"name":"tile_pooopie_dungeon_entrance","order":1,"path":"tilesets/tile_pooopie_dungeon_entrance/tile_pooopie_dungeon_entrance.yy",},
     {"name":"scr_player_dashtumble","order":1622,"path":"scripts/scr_player_dashtumble/scr_player_dashtumble.yy",},
     {"name":"scr_player_knightpepbump","order":1623,"path":"scripts/scr_player_knightpepbump/scr_player_knightpepbump.yy",},
     {"name":"scr_pummel","order":1624,"path":"scripts/scr_pummel/scr_pummel.yy",},
