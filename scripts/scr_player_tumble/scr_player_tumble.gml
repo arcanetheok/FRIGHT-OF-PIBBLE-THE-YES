@@ -20,6 +20,7 @@ function scr_player_tumble() //scr_player_tumble
     {
 		if !key_down
 		{
+			instance_create(x, y, obj_stompeffect)
 	        sprite_index = spr_player_mach2jump
 			machland = 1
 	        vsp = -9
