@@ -14,7 +14,7 @@ function scr_player_motorcycle() //scr_player_motorcycle
     {
         scr_soundeffect(sfx_jump)
         input_buffer_jump = 8
-        vsp = -11
+        vsp = -9
         jumped = 1
         jumpstop = 0
         sprite_index = spr_player_pizzacarjump

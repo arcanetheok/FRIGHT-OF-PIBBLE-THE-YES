@@ -44,7 +44,7 @@ function scr_player_chainsawbump() //scr_player_chainsawbump
     if (key_jump && grounded)
     {
         jumpstop = 0
-        vsp = -11
+        vsp = -9
         state = (104 << 0)
         sprite_index = spr_mach2jump
     }

@@ -54,7 +54,7 @@ function scr_player_handstandjump() //scr_player_handstandjump
     {
         jumpstop = 0
         image_index = 0
-        vsp = -11
+        vsp = -9
         state = (104 << 0)
         sprite_index = spr_player_longjump
     }

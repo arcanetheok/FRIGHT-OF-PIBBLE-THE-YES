@@ -27,7 +27,7 @@ function scr_player_chainsaw() //scr_player_chainsaw
                 jumpAnim = 1
                 state = (92 << 0)
                 sprite_index = spr_suplexland
-                vsp = -11
+                vsp = -9
                 jumpstop = 0
                 image_index = 0
             }

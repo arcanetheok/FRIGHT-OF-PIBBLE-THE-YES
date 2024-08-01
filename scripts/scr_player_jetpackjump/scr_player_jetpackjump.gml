@@ -13,7 +13,7 @@ function scr_player_jetpackjump() //scr_player_jetpackjump
             if (other.vsp < 0)
                 other.vsp = -14
             else if (other.vsp > -11)
-                other.vsp = -11
+                other.vsp = -9
             jumpstop = 0
         }
     }

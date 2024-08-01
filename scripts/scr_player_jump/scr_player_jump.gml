@@ -115,7 +115,7 @@ function state_player_jump() //state_player_jump
         {
             scr_soundeffect(sfx_jump)
             stompAnim = 0
-            vsp = -11
+            vsp = -9
             state = (92 << 0)
             jumpAnim = 1
             jumpstop = 0
@@ -228,7 +228,7 @@ function state_player_jump() //state_player_jump
             sprite_index = spr_shotgunjump1
             image_index = 0
             state = (122 << 0)
-            vsp = -11
+            vsp = -9
             with (instance_create((x + (xscale * 30)), (y + 60), obj_shotgunbullet))
             {
                 image_xscale = other.xscale

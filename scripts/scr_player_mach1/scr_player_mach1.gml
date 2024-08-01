@@ -60,7 +60,7 @@ function scr_player_mach1() //scr_player_mach1
             image_index = 0
             dir = xscale
             momemtum = 1
-            vsp = -11
+            vsp = -9
             jumpAnim = 1
         }
     }

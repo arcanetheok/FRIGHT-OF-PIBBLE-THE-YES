@@ -28,7 +28,7 @@ function scr_player_grind() //scr_player_grind
     }
     if key_jump
     {
-        vsp = -11
+        vsp = -9
         jumpstop = 0
         if skateboarding
         {

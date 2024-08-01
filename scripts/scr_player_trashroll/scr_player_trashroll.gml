@@ -33,7 +33,7 @@ function scr_player_trashroll() //scr_player_trashroll
         state = (104 << 0)
         sprite_index = spr_mach2jump
         jumpstop = 0
-        vsp = -11
+        vsp = -9
         instance_create(x, y, obj_jumpdust)
     }
     if (((place_meeting((x + xscale), y, obj_solid) || place_meeting((x + xscale), y, obj_ghostwall)) && (!(place_meeting((x + hsp), y, obj_rollblock))) && (!(place_meeting((x + hsp), y, obj_rattumble)))) || place_meeting(x, y, obj_timedgate))

@@ -27,7 +27,7 @@ function scr_player_tacklecharge() //scr_player_tacklecharge
         image_index = 0
         sprite_index = spr_player_secondjump1
         scr_soundeffect(sfx_jump)
-        vsp = -11
+        vsp = -9
     }
     if key_jump
         input_buffer_jump = 0

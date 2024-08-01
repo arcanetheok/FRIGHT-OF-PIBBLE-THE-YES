@@ -28,7 +28,7 @@ function state_player_normal() //state_player_normal
         {
             instance_create(x, y, obj_genericpoofeffect)
             with (instance_create(x, y, obj_beatbox))
-                vsp = -11
+                vsp = -9
         }
         notecreate--
     }
@@ -246,7 +246,7 @@ function state_player_normal() //state_player_normal
             }
             particle_set_scale((4 << 0), xscale, 1)
             create_particle(x, y, (4 << 0), 0)
-            vsp = -11
+            vsp = -9
             state = (92 << 0)
             jumpAnim = 1
             jumpstop = 0

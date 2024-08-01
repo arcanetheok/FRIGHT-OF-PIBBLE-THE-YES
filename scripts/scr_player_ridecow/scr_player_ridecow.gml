@@ -25,7 +25,7 @@ function scr_player_ridecow() //scr_player_ridecow
     if key_jump
     {
         cow_buffer = 20
-        vsp = -11
+        vsp = -9
         image_index = 0
         if has_mort
         {

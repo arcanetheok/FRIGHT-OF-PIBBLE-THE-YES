@@ -75,7 +75,7 @@ function scr_player_mach3() //scr_player_mach3
                     sprite_index = spr_mach3jump
                 }
                 if (character == "P")
-                    vsp = -11
+                    vsp = -9
                 else
                     vsp = -13
             }
@@ -290,7 +290,7 @@ function scr_player_mach3() //scr_player_mach3
                     image_index = 0
                     sprite_index = spr_mach3jump
                 }
-                vsp = -11
+                vsp = -9
             }
             if (fightball == 0)
             {
@@ -628,7 +628,7 @@ function scr_player_mach3() //scr_player_mach3
                     image_index = 0
                     sprite_index = spr_mach3jump
                 }
-                vsp = -11
+                vsp = -9
             }
             if (scr_solid((x + sign(hsp)), y) && (!(place_meeting((x + sign(hsp)), y, obj_mach3solid))) && ((!(place_meeting((x + sign(hsp)), y, obj_slope))) || place_meeting((x + sign(hsp)), y, obj_solid)) && (!(place_meeting((x + sign(hsp)), y, obj_metalblock))) && character != "V" && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))) && character != "V" && (!(place_meeting((x + sign(hsp)), y, obj_hungrypillar))))
             {

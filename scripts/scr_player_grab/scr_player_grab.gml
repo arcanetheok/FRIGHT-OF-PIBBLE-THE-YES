@@ -155,7 +155,7 @@ function scr_player_grab() //scr_player_grab
         sprite_index = spr_haulingjump
         instance_create(x, y, obj_highjumpcloud2)
         if (heavy == 0)
-            vsp = -11
+            vsp = -9
         else
             vsp = -6
         image_index = 0

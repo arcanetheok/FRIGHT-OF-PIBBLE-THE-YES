@@ -7,6 +7,7 @@ global.throwarc = 1
 global.hidetiles = 0
 global.leveltosave = -4
 global.leveltorestart = -4
+machland = 0
 jetpackdash = 0
 flamecloud_buffer = 0
 rankpos_x = x

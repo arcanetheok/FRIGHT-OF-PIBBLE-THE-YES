@@ -26,7 +26,7 @@ function scr_player_mach2() //scr_player_mach2
         scr_soundeffect(sfx_jump)
         if skateboarding
             sprite_index = spr_clownjump
-        vsp = -11
+        vsp = -9
     }
     var mortjump = 0
     if (key_jump && global.mort == 1 && sprite_index != spr_mortdoublejump && (!grounded) && (!skateboarding))

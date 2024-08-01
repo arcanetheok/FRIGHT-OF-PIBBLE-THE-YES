@@ -42,7 +42,7 @@ function Instakill() //Instakill
             if (state == (121 << 0) && fightball == 0)
                 sprite_index = spr_player_mach2jump
             suplexmove = 0
-            vsp = -11
+            vsp = -9
         }
         if (state == (34 << 0))
         {

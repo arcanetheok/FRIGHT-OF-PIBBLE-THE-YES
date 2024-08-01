@@ -79,7 +79,7 @@ function scr_player_climbwall() //scr_player_climbwall
                 sprite_index = spr_walljumpstart
                 if skateboarding
                     sprite_index = spr_clownjump
-                vsp = -11
+                vsp = -9
                 xscale *= -1
                 jumpstop = 0
                 walljumpbuffer = 4
@@ -129,7 +129,7 @@ function scr_player_climbwall() //scr_player_climbwall
                 state = (104 << 0)
                 image_index = 0
                 sprite_index = spr_walljumpstart
-                vsp = -11
+                vsp = -9
                 xscale *= -1
                 jumpstop = 0
             }

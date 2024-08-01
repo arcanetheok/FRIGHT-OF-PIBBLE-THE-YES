@@ -21,7 +21,7 @@ function scr_player_crouchslide() //scr_player_crouchslide
     {
         sprite_index = spr_player_jumpdive1
         image_index = 0
-        vsp = -11
+        vsp = -9
         with (instance_create(x, y, obj_superdashcloud))
         {
             image_xscale = other.xscale

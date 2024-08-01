@@ -39,7 +39,7 @@ function scr_player_rocket() //scr_player_rocket
         state = (104 << 0)
         sprite_index = spr_mach2jump
         jumpstop = 0
-        vsp = -11
+        vsp = -9
         instance_create(x, y, obj_jumpdust)
         with (instance_create(x, (y + 12), obj_rocketdead))
         {

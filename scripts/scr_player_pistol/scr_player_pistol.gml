@@ -11,7 +11,7 @@ function scr_player_pistol() //scr_player_pistol
     if (key_jump && grounded && (!key_down))
     {
         jumpstop = 0
-        vsp = -11
+        vsp = -9
         state = (5 << 0)
         sprite_index = spr_mach2jump
     }

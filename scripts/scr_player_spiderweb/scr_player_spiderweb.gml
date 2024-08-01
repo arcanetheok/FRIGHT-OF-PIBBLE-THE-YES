@@ -21,7 +21,7 @@ function scr_player_spiderweb() //scr_player_spiderweb
                 event_user(0)
         }
         state = (92 << 0)
-        vsp = -11
+        vsp = -9
         jumpstop = 0
         sprite_index = spr_jump
         image_index = 0

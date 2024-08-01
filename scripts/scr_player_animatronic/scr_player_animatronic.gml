@@ -40,7 +40,7 @@ function scr_player_animatronic() //scr_player_animatronic
     if (grounded && vsp > 0 && input_buffer_jump < 8)
     {
         input_buffer_jump = 8
-        vsp = -11
+        vsp = -9
         jumpstop = 0
     }
 }
