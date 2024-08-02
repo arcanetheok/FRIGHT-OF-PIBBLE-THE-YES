@@ -1,5 +1,5 @@
 pal_swap_init_system(2)
-global.roommessage = "TIME TO SLOP"
+global.roommessage = "THE PIBBLE"
 if (!obj_secretmanager.init)
 {
     trace("secret init")

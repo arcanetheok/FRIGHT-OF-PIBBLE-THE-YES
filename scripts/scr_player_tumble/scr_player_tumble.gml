@@ -21,7 +21,7 @@ function scr_player_tumble() //scr_player_tumble
 		if !key_down
 		{
 			instance_create(x, y, obj_stompeffect)
-	        sprite_index = spr_player_mach2jump
+	        sprite_index = spr_player_shoulder
 			machland = 1
 	        vsp = -9
 			image_index = 0
@@ -87,7 +87,7 @@ function scr_player_tumble() //scr_player_tumble
         image_index = 0
     }
     if (sprite_index == spr_player_machroll && (!grounded))
-        sprite_index = spr_player_mach2jump
+        sprite_index = spr_player_shoulder
     if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_backslideland)
         sprite_index = spr_player_backslide
     if (sprite_index == spr_player_Sjumpcancel && grounded)
@@ -144,7 +144,7 @@ function scr_player_tumble() //scr_player_tumble
 	        {
 	            with (instance_create(x, y, obj_jumpdust))
 	                image_xscale = other.xscale
-				sprite_index = spr_player_mach2jump
+				sprite_index = spr_player_shoulder
 				image_index = 0
 				machland = 1
 				vsp = -9

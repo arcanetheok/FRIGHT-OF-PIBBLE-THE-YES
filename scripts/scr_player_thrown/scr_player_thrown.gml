@@ -33,10 +33,6 @@ function scr_player_thrown() //scr_player_thrown
                 sprite_index = spr_player_outofpizza2
                 image_index = 0
                 break
-            case 825:
-                sprite_index = spr_player_outofpizza4
-                image_index = 0
-                break
         }
 
     }
