@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 209.18918,
+  "duration": 114.78204,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "mu_entrance.ogg",
+  "soundFile": "mu_entrance.mp3",
   "type": 0,
   "volume": 1.0,
 }
